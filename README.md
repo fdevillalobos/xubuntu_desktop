@@ -4,25 +4,12 @@
 Pull from Docker Index and run the image
 
 ```
-CID=$(docker run -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu)
+CID=$(docker run -p 2222:22 -t -d [your_image_name])
 docker logs $CID
 
 note down the root/dockerx passwords.
 ```
 
-OR
-
-build it yourself.
-
-```
-git clone https://github.com/paimpozhil/DockerX2go.git .
-docker build -t [yourimagename] .
-CID=$(docker run -p 2222:22 -t -d [yourimagename])
-
-docker logs $CID
-
-note the root/dockerx passwords
-```
 
 ### How to run/connect to server with a Client?
 
