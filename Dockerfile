@@ -29,14 +29,3 @@ RUN chmod +x /*.sh
 EXPOSE 22
 
 CMD ["/run.sh"]
-
-
--0.05838
-0.00274
--0.00226
-
-90 en z
-
-180 en z
-
--14.556 en x
